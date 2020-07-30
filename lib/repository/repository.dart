@@ -5,7 +5,7 @@ import 'package:movie_app_flutter/model/person_response.dart';
 import 'package:movie_app_flutter/secret.dart';
 
 class MovieRepository {
-  static String mainUrl = 'https://api.themoviedb.org/3';
+  static String mainUrl = "https://api.themoviedb.org/3";
   final Dio _dio = Dio();
   var getPopularUrl = '$mainUrl/movie/top_rated';
   var getMoviesUrl = '$mainUrl/discover/movie';
